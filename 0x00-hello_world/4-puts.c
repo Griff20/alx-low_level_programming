@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * start point(main)
- * return(0)
+ * main-starting point
+ *
+ * Return-(0)
  */
 int main(void)
 {

@@ -9,21 +9,21 @@
  */
 int main(void)
 {
-	int c;
-	char k;
+	int i;
+	char l;
 
-	c = 48;
+	i = 48;
 	while  (i < 58)
 	{
-		putchar(c);
-		c++;
+		putchar(i);
+		i++;
 	}
 
-	k = 'a';
-	while (k <= 'f')
+	l = 'a';
+	while (l <= 'f')
 	{
-		putchar(k);
-		k++;
+		putchar(l);
+		l++;
 	}
 	putchar('\n');
 

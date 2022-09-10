@@ -9,8 +9,8 @@
  */
 int main(void)
 {
+	char l;
 	int i;
-	str l;
 
 	i = 48;
 	while  (i < 58)

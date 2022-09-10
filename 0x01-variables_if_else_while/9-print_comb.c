@@ -10,7 +10,6 @@
 int main(void)
 {
 	int i;
-	char l;
 
 	i = 48;
 	while  (i < 58)

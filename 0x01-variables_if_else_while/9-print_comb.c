@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char l;
+	int l;
 	int i;
 
 	i = 48;

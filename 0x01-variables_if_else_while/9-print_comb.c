@@ -1,29 +1,21 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-/* betty style to function main goes there */
 /**
- * main - Entry
- *
- * Return: Always (Success)
+ * main - prints numbers from 0 to 9 separated by a comma followed by a space
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int l;
-	int i;
+	int slf = '0';
 
-	i = 48;
-	while  (i < 58)
+	while (slf <= '9')
 	{
-		putchar(i);
-		i++;
-	}
-
-	l = 'a';
-	while (l <= 'f')
-	{
-		putchar(l);
-		l++;
+		putchar(slf);
+		if (slf != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		slf++;
 	}
 	putchar('\n');
 

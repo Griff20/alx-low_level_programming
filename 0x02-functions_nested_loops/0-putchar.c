@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char x[9] = "_putchar";
+	char x[9] = "\_putchar";
 	int a=0;
 	while (a<8)
 	{

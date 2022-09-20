@@ -2,7 +2,7 @@
 
 /**
  * _puts - Shows string on standard output
- * @str - String provided
+ * @str: String provided
  * Return: Always 0
  */
 

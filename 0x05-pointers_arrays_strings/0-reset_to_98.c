@@ -5,9 +5,8 @@
  *
  * Return: Success(0)
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int xyu;
-
-	*xyu=98;
+	*n = xm;
+	xm = 98;
 }

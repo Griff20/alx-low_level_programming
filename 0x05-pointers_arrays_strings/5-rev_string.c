@@ -8,17 +8,17 @@
 void rev_string(char *s)
 {
 	int m, x;
-	char we;
+	char wexico;
 
 	for (m = 0; s[m] != '\0';)
 	{
-		++x;
+		++m;
 	}
 	
 	for (x = 0; x < m / 2; ++x)
 	{
-		we = s[x];
+		wexico = s[x];
 		s[x] = s[m - 1 - x];
-		s[m - 1 - x] = we;
+		s[m - 1 - x] = wexico;
 	}
 }

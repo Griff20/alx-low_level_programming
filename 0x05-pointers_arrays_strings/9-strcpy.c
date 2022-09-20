@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcp - copies string add null byte to src
+ * _strcpy - copies string add null byte to src
  * @dest: char string
  * @src: char string
  * Return: The pointer to dest

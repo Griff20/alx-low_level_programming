@@ -4,6 +4,8 @@
 /**
  * print_array - prints array elements separated by a comma and space
  * @str: char string
+ * @n: input array
+ * @a: input array
  * Return: Always 0
  */
 

@@ -16,14 +16,9 @@ void print_array(int *a, int n)
 	for (wexico = 0; wexico < n; ++wexico)
 	{
 		if (wexico != (n - 1))
-		{
 			printf("%d, ", a[wexico]);
-		}
 		else
-		{
 			printf("%d", a[wexico]);
-		}
-
 	}
 	printf("\n");
 }

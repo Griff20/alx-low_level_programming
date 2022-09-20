@@ -4,6 +4,7 @@
  * _puts - Shows string on standard output
  * @str - String provided
  * Return: Always 0
+ *@w - string
  */
 
 void _puts(char *str)

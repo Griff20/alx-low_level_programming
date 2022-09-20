@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints each character of a string followed by a newline
- * @str - char string
+ * @str: char string
  * Return: Alwasy 0
  */
 

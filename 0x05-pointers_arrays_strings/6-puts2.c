@@ -8,13 +8,13 @@
 
 void puts2(char *str)
 {
-	int mexico;
+	int m;
 
-	for (mexico = 0; str[mexico] != '\0'; ++mexico)
+	for (m = 0; str[m] != '\0'; ++m)
 	{
-		if (mexico % 2 == 0)
+		if (m % 2 == 0)
 		{
-			_putchar(str[mexico]);
+			_putchar(str[m]);
 		}
 		_putchar('\n');
 	}

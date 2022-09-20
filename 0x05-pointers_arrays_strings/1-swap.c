@@ -2,13 +2,13 @@
  * swap_int - Replaces integer value with another
  * @a - integer pointer
  * @b - integer pointer
- *@mw - integer
+ *@m- integer
  */
 void swap_int(int *a, int *b)
 {
-	int mw;
+	int m;
 
-	*b = mw;
+	*b = m;
 	*b = *a;
-	mw = *a;
+	m = *a;
 }

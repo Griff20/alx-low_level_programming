@@ -8,7 +8,7 @@
 void rev_string(char *s)
 {
 	int m, x;
-	char mexi;
+	char we;
 
 	for (m = 0; s[m] != '\0';)
 	{
@@ -17,8 +17,8 @@ void rev_string(char *s)
 	
 	for (x = 0; x < m / 2; ++x)
 	{
-		mexi = s[x];
+		we = s[x];
 		s[x] = s[m - 1 - x];
-		s[m - 1 - x] = mexi;
+		s[m - 1 - x] = we;
 	}
 }

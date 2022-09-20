@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * swap_int - Replaces integer value with another
  * @a - integer pointer
@@ -10,5 +12,5 @@ void swap_int(int *a, int *b)
 
 	m = *b;
 	*b = *a;
-	m = *a;
+	*a = m;
 }

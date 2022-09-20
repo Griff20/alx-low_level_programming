@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_array - prints array elements separated by a comma and space
+ * print_array - prints elements separated by comma & space
  * @str: char string
  * @n: input array
  * @a: input array

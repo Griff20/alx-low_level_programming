@@ -8,14 +8,12 @@
 
 void puts2(char *str)
 {
-	int m;
+	int wexico;
 
-	for (m = 0; str[m] != '\0'; ++m)
+	for (wexico = 0; str[wexico] != '\0'; ++wexico)
 	{
-		if (m % 2 == 0)
-		{
-			_putchar(str[m]);
-		}
-		_putchar('\n');
+		if (wexico % 2 == 0)
+			_putchar(str[wexico]);
 	}
+	_putchar('\n');
 }

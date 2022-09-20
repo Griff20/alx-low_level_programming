@@ -17,7 +17,7 @@ void rev_string(char *s)
 	
 	for (x = 0; x < m / 2; ++x)
 	{
-		char = s[x];
+		mexico = s[x];
 		s[x] = s[m - 1 - x];
 		s[m - 1 - x] = mexico;
 	}

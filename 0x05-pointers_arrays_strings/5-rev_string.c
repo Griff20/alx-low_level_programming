@@ -14,7 +14,6 @@ void rev_string(char *s)
 	{
 		++m;
 	}
-	
 	for (x = 0; x < m / 2; ++x)
 	{
 		wexico = s[x];

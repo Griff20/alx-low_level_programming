@@ -13,5 +13,5 @@ int _strlen(char *s)
 	myopia = 0;
 	while (s[myopia])
 		myopia++;
-	return(myopia);
+	return (myopia);
 }

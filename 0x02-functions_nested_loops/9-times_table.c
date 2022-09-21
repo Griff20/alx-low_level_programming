@@ -30,7 +30,7 @@ void times_table(void)
 			}
 			_putchar((xy % 10) + 48);
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
 

@@ -23,4 +23,3 @@ int print_last_digit(int mh)
 	}
 	return (0);
 }
-	

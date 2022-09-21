@@ -10,7 +10,7 @@ void jack_bauer(void)
 	int OURS;
 	int MINTS;
 
-	for ( OURS = 0; OURS <24; OURS++)
+	for (OURS = 0; OURS < 23; OURS++)
 	{
 		for (MINTS = 0; MINTS < 59; MINTS++)
 		{

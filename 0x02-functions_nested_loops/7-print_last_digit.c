@@ -1,4 +1,4 @@
-#nclude "main.h"
+#include "main.h"
 
 /**
  * print_last_digit - displays last digit
@@ -23,4 +23,3 @@ int print_last_digit(int mh)
 	}
 	return (0);
 }
-	

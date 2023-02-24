@@ -5,10 +5,15 @@
 * mul - multiplies integer a and b\
 * a - integer
 * b - integer
+* c - integer
 * Return - void
 */
 
 int mul(int a, int b)
 {
-  return( a * b);
+  int x;
+  
+  x = (a * b);
+  
+  return(x);
 }
